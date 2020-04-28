@@ -51,7 +51,7 @@ has_many :group_users
 |body|text|
 |image|string|
 |group|references|null: false, foreign_key: true|
-|users|references|null: false, foreign_key: true|
+|user|references|null: false, foreign_key: true|
 
 ### Association
 belongs_to :group
