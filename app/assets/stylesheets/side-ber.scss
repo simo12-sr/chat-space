@@ -1,0 +1,62 @@
+.side-ber{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+  .side-header{
+    background-color: #253541;
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  .side-header-box{
+    height: 20px;
+    width: 260px;
+    background-color: #253541;
+    display :flex; 
+    justify-content: space-between;
+  }
+  .side-header-box_user-name{
+    line-height: 20px;
+    width: 60px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .side-header-box_menu{
+    line-height: 20px;
+    width: 60px;
+  }
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  a{
+    color:#ffffff;
+  }
+  .side-header-box_new-group{
+  }
+  .side-header-box_edit-user{
+    margin-left:5px;
+  }
+  .groups{
+   background-color: #2f3e51;
+   height: calc(100vh - 100px);
+   padding: 20px 20px ;
+  }
+  .group{
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+  .group_group-name{
+   font-size: 15px;
+   margin-bottom: 5px;
+  }
+  .group_latest-message{
+   font-size: 11px;
+  }
+}
+

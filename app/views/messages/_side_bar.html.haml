@@ -1,0 +1,17 @@
+.side-ber
+  .side-header
+    .side-header-box
+      .side-header-box_user-name
+        hoge
+      %ul.side-header-box_menu
+        %li.side-header-box_new-group
+          = link_to "#"  do
+            = icon("fa","edit")
+        %li.side-header-box_edit-user
+          = link_to '#' do
+            = icon("fa","cog")
+
+  .groups
+    = link_to '#', class: "group" do
+      %p.group_group-name text
+      %p.group_latest-message mada
