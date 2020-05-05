@@ -1,0 +1,37 @@
+.chat-main
+  .main-header
+    .main-header_left-box
+      %h2.main-header_left-box_current-group
+        huhu
+      %ul.main-header_left-box_member-list
+        member:
+        %li.main-header_left-box_member-list_member
+          hoho
+    = link_to "#", class: "main-header_edit-btn" do
+      Edit
+  .messages
+    .message
+      .message_name
+        %p.message_name_i
+          hoge
+        %p.message_name_data
+          2020/10/10(fri) 17:17:17
+      %p.message_text
+        bakakakakaka
+    .message
+      .message_name
+        %p.message_name_i
+          hoge
+        %p.message_name_data
+          2020/10/13(fri) 13:13:13
+      %p.message_text
+        zazaaz
+  .form
+    %form.new-message
+      .input-box
+        %input{type: "text", class: "input-box_text", placeholder: "type a message"}
+        %label.input-box_imag
+          = icon("fa","image")
+          %input{type: "file", class:"file"}
+
+      %input{type: "submit", class: "sebmit-btn", value: "Send"}
